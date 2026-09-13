@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minhas Atividades"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtAtividade1025"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OS #1025&#10;Cliente: Empresa Alfa&#10;Tipo: Corretiva&#10;Prioridade: Urgente&#10;Status: Em deslocamento"
+            android:textSize="16sp"
+            android:padding="18dp"
+            android:background="@drawable/bg_card"
+            android:layout_marginBottom="14dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp"
+            android:lineSpacingExtra="3dp"/>
+        <TextView
+            android:id="@+id/txtAtividade1026"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OS #1026&#10;Cliente: Empresa Beta&#10;Tipo: Preventiva&#10;Prioridade: Normal&#10;Status: Atribuída"
+            android:textSize="16sp"
+            android:padding="18dp"
+            android:background="@drawable/bg_card"
+            android:layout_marginBottom="14dp"
+            android:elevation="4dp"
+            android:lineSpacingExtra="3dp"/>
+        <TextView
+            android:id="@+id/txtAtividade1027"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OS #1027&#10;Cliente: Empresa Gama&#10;Tipo: Serviço&#10;Prioridade: Alta&#10;Status: No local"
+            android:textSize="16sp"
+            android:padding="18dp"
+            android:background="@drawable/bg_card"
+            android:elevation="4dp"
+            android:lineSpacingExtra="3dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
